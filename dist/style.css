@@ -1,0 +1,27 @@
+.circle
+{height: 200px;
+  width: 200px;
+  text-align: center;
+  line-height: 200px;
+  color: #ffffff;
+  font-size: 28px;
+  background-color: black;
+  border-radius: 100px;
+  
+animation: rotate 10s linear infinite;
+  animation-direction: alternate;
+}
+
+hr {
+  margin-top: 0;
+}
+
+@keyframes rotate {
+  from {
+    transform: translateX(0) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(100vw) rotate(720deg);
+  }
+}
